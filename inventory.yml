@@ -1,0 +1,8 @@
+all:
+  hosts:
+    atlantacloudgroup.com:
+  children:
+    webservers:
+      hosts:
+        ec2-54-89-157-196.compute-1.amazonaws.com
+        
