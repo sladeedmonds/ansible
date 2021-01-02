@@ -1,0 +1,6 @@
+- name: install ntp
+  become: yes
+  package:
+      name: ntp
+      state: present
+  tags: ntp

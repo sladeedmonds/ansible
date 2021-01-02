@@ -1,0 +1,10 @@
+all:
+  hosts:
+    atlcloudgroup
+  children:
+    runners:
+      hosts:
+        10.0.0.10
+    aws:
+      hosts:
+        ec2-54-89-157-196.compute-1.amazonaws.com:
